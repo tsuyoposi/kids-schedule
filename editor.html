@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>時間割編集</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>時間割編集</h1>
+  <input type="date" id="datePicker" />
+  <button onclick="loadSchedule()">読み込み</button>
+  <div id="scheduleList"></div>
+  <h2>新しい予定の追加</h2>
+  <input type="time" id="startTime" />〜
+  <input type="time" id="endTime" />
+  <input type="text" id="task" placeholder="タスク内容" />
+  <button onclick="addTask()">追加</button>
+  <button onclick="saveSchedule()">保存</button>
+  <script src="editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "夏休みキッズ時間割",
+  "short_name": "時間割",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f0f8ff",
+  "theme_color": "#f0f8ff",
+  "icons": []
+}
